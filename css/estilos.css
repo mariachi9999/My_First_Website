@@ -211,7 +211,7 @@ h2 {
 
 
 .event-list {
-    display: flex;
+    display: block;
     justify-content: space-between;
     flex-wrap: wrap;
 }
@@ -442,7 +442,7 @@ h2 {
     /* width: 100%; */
     /* flex: 1; */
     margin: 0 auto;
-    display: inherit;
+    display: flex;
     justify-content: inherit;
     align-items: inherit;
     height: inherit;
