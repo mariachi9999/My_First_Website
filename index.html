@@ -1,0 +1,204 @@
+<!DOCTYPE html> 
+<!-- Esta etiqueta no se cierra! -->
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Hola soy Nicolás Lupo </title>        
+        <link rel="icon" type="image/png" href="recursos/images/NL_favicon1.png" />
+        <!-- <link rel="stylesheet" href="css/media.css" media="screen and (max-width:768px)"> -->
+        <link rel="stylesheet" href="css/estilos.css">
+        <style>
+            @media screen and (max-width: 768px) {
+                body {
+                    border: 10px solid blue;
+                }
+            }
+        </style>
+        <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+        <link href="<link rel="preconnect" href="https://fonts.gstatic.com">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            header {
+                 background: #006341;
+            }
+        </style>
+    </head>
+    <body> <!-- Todo lo que va acá adentro es lo que se va a visualizar dentro del navegador-->
+        <i class= "icon-menu burger-button" id="burger-menu"></i>
+        <header class="header">
+            <div class="container">
+                <figure class="logo">
+                        <img src="recursos/images/logo_nuevo.png" height="70" alt="Logo de Nicolás Lupo - Instructor de Padel">
+                    </figure>           
+                    <nav class="menu">
+                        <ol>
+                            <li>
+                            <a class="link" href="#Portafolio">Capacitación</a>  
+                            </li>
+                            <li>
+                            <a class="link" href="#Eventos">Más conocimientos</a>  
+                            </li>
+                            <li>
+                            <a class="link" href="#Contacto">Trabajemos juntos</a>  
+                            </li>
+                        </ol>
+                    </nav>                
+            </div>
+       </header>
+       <section class="hero">
+           <div class="container">
+               <h1>
+                   Hola! Soy <strong>Nicolás Lupo</strong> <br/> <strong>Instructor de Padel</strong> y Personal Trainer! <br/> <strong>Busca tu mejor versión!</strong>!
+               </h1>
+               <img class="hero-image" src="recursos/images/Foto curso Nito Brea.jpg" width="500" height="300" alt="imagen principal del sitio">
+           </div>
+       </section>
+       <section id="Portafolio" class="portfolio">
+           
+           <div class="container">
+               <h2>Capacitación</h2>
+            </div>
+            <div class="container">
+                <article class="project">
+                    <div class="project-details">
+                        <h3 class="project-title">Instructor de Padel</h3>
+                        <h6 class="project-course">Certificado por la Asociación de Padel Argentino (A.P.A)</h6>
+                        <p class="project-date"><small><strong>Fecha:</strong> Febrero 2020</small></p>
+                        <p class="project-url"><small><strong>Mas información:</strong> Capacitación a cargo de Nito Brea, en Club Monasterio (CABA)</small></p>
+                        <p class="project-description"> Un buen profesor no solo debe “saber de padel” sino que debe saber transmitirlo, tener recursos didácticos y metodología de enseñanza para lograr que los alumnos aprendan. </p>
+                        
+                    </div>
+                    <figure class="project-imageContainer">
+                        <video class="html-video" src="recursos/videos/1_Lupo_TP2_TecnicaFondoA.mp4"  controls></video>
+                        
+                        <!-- <img class="project-image" src="recursos/images/Foto nito brea.jpg" width="500" heigth="300" alt="proyecto del recurso de react native"> -->
+                    </figure>
+                </article>
+                <article class="project">
+                    <div class="project-details">
+                        <h3 class="project-title">Instructor Avanzado en Fitness y Actividad Física</h3>
+                        <h6 class="project-course">Certificación internacional avalada por ALIFID</h6>
+                        <p class="project-date"><small><strong>Fecha:</strong> Junio 2020</small></p>
+                        <p class="project-url"><small><strong>Mas información en:</strong> http://instructores.alifid.org/entrenadores/6549/</small></p>
+                        <p class="project-description">La certificación internacional más completa en materia de Fitness que integra conocimientos de entrenamiento, nutrición, lesiones deportivas y salud.</p>
+                    </div>
+                    <figure class="project-imageContainer">
+                        <img class="project-image" src="recursos/images/clase-gualda-training.jpeg" width="500" heigth="300" alt="proyecto del recurso de react native">
+                            
+                        
+                    </figure>
+                </article>
+            </div>
+        </section>
+        <section id="Eventos" class="event-list">
+            <div class="container">
+                <h2 class="event-list-title">Más sobre mi experiencia</h2>
+            </div>
+            <div class="container">
+                <article class="event">
+                    <figure class="event-imageContainer">
+                        <div class="flexible-video">
+                            <iframe class="youtube-video" width="360" height="360" src="https://www.youtube.com/embed/6Yds4UkzuOg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div> 
+                        <!-- <img class="event-image" src="recursos/images/images_personaltrainer.jpg" width="500" heigth="300" alt="imagen de la conferencia" /> -->
+                    </figure>
+                    <div class="event-detail">
+                        <h3 class="event-title">Preparador Físico</h3>
+                        <p class="event-description">Planificaciones específicas para cada actividad (padel, tenis, fútbol, rugby, hockey, etc) con el objetivo de mejorar el rendimiento de los deportistas.</p>
+                        <a class="event-url" href="https://www.youtube.com/watch?v=6Yds4UkzuOg&feature=youtu.be" target="_blank">Más info</a>
+                    </div>
+                </article> 
+                <article class="event">
+                    <figure class="event-imageContainer">
+                        <img class="event-image" src="recursos/images/entrenamiento_funcional.jpg" width="500" heigth="300" alt="imagen de la conferencia" />
+                    </figure>
+                    <div class="event-detail">
+                        <h3 class="event-title">Instructor de Entrenamiento Funcional</h3>
+                        <p class="event-description">El entrenamiento funcional se ha consolidado en el ámbito deportivo del alto rendimiento como una de las estrategias deportivas más eficaces en materia de prevención de lesiones y en el rendimiento deportivo del jugador.</p>
+                        <a class="event-url" href="https://www.youtube.com/watch?v=ceEwAbiC83g&feature=youtu.be" target="_blank">Más info</a>
+                    </div>
+                </article> 
+                <article class="event">
+                    <figure class="event-imageContainer">
+                        <img class="event-image" src="recursos/images/foto_rcp.jpg" width="500" heigth="300" alt="imagen de la conferencia" />
+                    </figure>
+                    <div class="event-detail">
+                        <h3 class="event-title">Certificación en RCP</h3>
+                        <p class="event-description">La reanimación cardiopulmonar consiste en una serie de maniobras tendientes a restaurar la circulación y la ventilación en una persona cuyo corazón no late y que no es capaz de respirar por sí misma.</p>
+                        <a class="event-url" href="https://www.youtube.com/watch?v=LoKvxCSZw5w" target="_blank">Más info</a>
+                    </div>
+                </article> 
+                <article class="event">
+                    <figure class="event-imageContainer">
+                        <img class="event-image" src="recursos/images/estiramientos.jpg" width="500" heigth="300" alt="imagen de la conferencia" />
+                    </figure>
+                    <div class="event-detail">
+                        <h3 class="event-title">Capacitación en Lesiones deportivas</h3>
+                        <p class="event-description">Como profesionales del fitness y deporte es fundamental contar con herramientas de identificación, prevención y rehabilitación de lesiones para lograr una planificación integral en el entrenamiento.</p>
+                        <a class="event-url" href="https://www.youtube.com/watch?v=LoKvxCSZw5w" target="_blank">Más info</a>
+                    </div>
+                </article> 
+            </div>
+       </section> 
+       <section id="Contacto" class="contact">
+           <div class="container">
+               <form action="/suscripcion/" class="form-email">
+                <h3>Querés tomar una clase?</h3>
+                <input type="text" placeholder="Déjanos tu email" id="email" />
+                <button>Enviar</button>
+               </form>
+               <div class="social">
+                   <a class="icon-whatsapp" href= "https://api.whatsapp.com/send?phone=5492236690961&text=Hola!%20Quiero%20tomar%20clases!%20Podrías%20pasarme%20información?" target="blank"></a>
+                   <a class="icon-twitter" href="https://twitter.com/mariachi9999" target="blank"></a>
+                   <a class="icon-facebook" href="https://www.facebook.com/nicolas.lupo.52/" target="blank"></a>
+                   <a class="icon-instagram" href="https://www.instagram.com/nicolas.lupo.52/" target="blank"></a>
+               </div>
+           </div>
+       </section> 
+       <footer class="footer">
+           <div class="container">
+               <div>
+                   <p>Curso de Desarrollo Web Online 2018 <img src="./recursos/images/platzi.png" width='80' alt="Logo_Platzi"></p>
+               </div>
+               <div>
+                   <p>Designed with 💖 by action <a href="https://twitter.com/thespianartist" target="_blank">@thespianartist</a></p>
+               </div>
+               <div>
+                    <p>Logotipo hecho con <a href="https://www.designevo.com/es/logo-maker/" title="Creador de logotipos gratis online">DesignEvo</a> </p>
+               </div>
+           </div>
+       </footer>
+       <script>
+        //    console.log('Hola mundo! es mi primera línea en JS!')
+           
+           const ipad = window.matchMedia('screen and (max-width: 767px)')
+           const menu = document.querySelector('.menu');
+        //    console.log(menu);
+           const burgerButton = document.querySelector('#burger-menu');
+        //    console.log(burgerButton);
+
+
+           ipad.addListener(validation) 
+
+           const links = document.querySelectorAll('.link')
+
+           function validation(event) {
+               if (event.matches) {
+                   burgerButton.addEventListener('click', hideShow);
+                   Array.from(links).forEach (link => {
+                       link.addEventListener('click',hideShow);
+                   })
+               } else {
+                burgerButton.removeEventListener('click', hideShow);
+               }           
+           }
+
+           validation(ipad);  
+
+           function hideShow() {
+               menu.classList.toggle('is-active');         
+            }
+
+       </script>
+    </body>
+</html>
