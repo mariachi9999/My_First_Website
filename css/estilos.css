@@ -461,7 +461,7 @@ a {
 /* Cada uno de los siguientes querys está sobre breakpoints estándars */
 
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
     .portfolio {
         padding: 0;
     }
