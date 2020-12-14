@@ -468,6 +468,7 @@ a {
     
     .container {
         padding: 0 1em;
+        justify-content: space-around;
         
     }
     
@@ -656,7 +657,7 @@ a {
     .contact {
         height: auto;
         padding: 1.5em 0;
-        text-align: center;
+        justify-content: center;
         display: block;
     }
 
